@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+}
+
+.logo>img{
+    width: 200px;
+    height: 50px;
+
+}
+
+.one{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 250px;
+}
+.one>li{
+    justify-content: space-evenly;
+}
+.header{
+    display: flex;
+    padding-left: 50px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.mid>img{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.head>h1{
+    bottom: 15px;
+    margin: auto 300px;
+    color: #049e59f0;
+    font-size: 80px;
+    position: absolute;
+    text-align: center;
+
+}
+.victory{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 50px;
+    background-color: rgba(191, 191, 126, 0.653);
+    margin-top: -5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.course,.campuses,.city{
+    background-color: rgb(55, 43, 226);
+    width: 200px;
+    height: 100px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+}
+.course-one,.campuses-one,.city-one{
+    background-color:#11cf6a ;
+    width: 180px;
+    height: 80px;
+}
+.course-one>h2,.campuses-one>h2,.city-one>h2{
+    text-align: center;
+}
+.locate-1{
+    border: 2px solid salmon;
+    display: flex;
+    width: 500px;
+}
+.locate-1>.heading{
+    width: 250px;
+    text-align: center;
+    background-color: rgba(255, 220, 80, 0.546);
+    color: darkcyan;
+}
+.map>iframe{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+.map{
+    border: 1px solid gold;
+}
+.allmap{
+    display: flex;
+    margin: auto 70px;
+}
+.head1{
+    text-align: center;
+    background-color: #cf1166;
+    color: white;
+
+}
+.bottom{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 50px;
+    background-color: #0F0F0F;
+    color: #ffffff;
+}
+.first>p{
+    width: 400px;
+    margin-top: 20px;
+}
+.first>img{
+    width: 200px;
+    height: 60px;
+}
+.first{
+    margin-left: 40px;
+}
+.second{
+    margin-left: 50px;
+}
+.third{
+    margin-left: 100px;
+}
+.fourth{
+    margin-left: 80px;
+}
+.second>p,.second>h4{
+    margin-top: 15px;
+}
+.first>p,.second>p,.third>p,.third>h5{
+    color:#ADB7B7;
+}
+.third>p,.third>h4{
+    margin-top: 15px;
+   
+}
+.fourth>p,.fourth>h4{
+    margin-top: 20px;
+}
+.third>p>.mix{
+    margin-top: 0px;
+}
+.icon>i{
+    margin-top: 30px;
+    padding: 12px;
+    background-color: red;
+    color: #ffffff;
+}
+
+.mid>h1>.style{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icons{
+    margin-top: 20px;
+}
+.icon>i{
+    border-radius: 50%;
+}
